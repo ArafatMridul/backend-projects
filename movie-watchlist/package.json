@@ -1,0 +1,29 @@
+{
+  "name": "movie-watchlist",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "seed": "node src/drizzle/seed.js",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.18.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.9",
+    "drizzle-orm": "^0.45.1"
+  }
+}
