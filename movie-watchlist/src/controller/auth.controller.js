@@ -33,8 +33,13 @@ export const loginController = async (req, res) => {
     }
 
     const token = generateJWTToken({userId: user.id});
-    res.cookies("jwt-token", token, {httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "strict"});
+    res.cookie("jwt-token", token, {httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "strict"});
 
     return res.status(200).json({success: true, message: "Login successful", token});
 
+}
+
+export const signoutController = (req, res) => {
+    res.clearCookie("jwt-token");
+    return res.status(200).json({success: true, message: "Signout successful"});
 }
