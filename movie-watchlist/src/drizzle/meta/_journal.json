@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1770824848490,
+      "tag": "0000_plain_dexter_bennett",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1770826362672,
+      "tag": "0001_familiar_albert_cleary",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1770836329417,
+      "tag": "0002_ordinary_jasper_sitwell",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1770837211796,
+      "tag": "0003_parallel_liz_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1770838677095,
+      "tag": "0004_perpetual_talisman",
+      "breakpoints": true
+    }
+  ]
+}
